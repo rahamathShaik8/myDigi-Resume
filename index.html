@@ -527,7 +527,100 @@
         Click Me
       </button>
     </section>
+    <!-- ✅ CONTACT SECTION -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Contact Me</h2>
 
+      <form>
+        <div class="row g-3">
+          <!-- Name -->
+          <div class="col-md-6">
+            <label class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control is-valid"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control is-invalid"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="col-md-6">
+            <label class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter password"
+            />
+          </div>
+
+          <!-- Select -->
+          <div class="col-md-6">
+            <label class="form-label">Subject</label>
+            <select class="form-select">
+              <option>General Inquiry</option>
+              <option>Job Opportunity</option>
+              <option>Project Discussion</option>
+            </select>
+          </div>
+
+          <!-- Radio -->
+          <div class="col-12">
+            <label class="form-label">Gender</label><br />
+
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" class="ms-3" /> Female
+          </div>
+
+          <!-- Checkbox -->
+          <div class="col-12">
+            <input type="checkbox" /> I agree to terms and conditions
+          </div>
+
+          <!-- Input Group -->
+          <div class="col-12">
+            <label class="form-label">Username</label>
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" placeholder="Username" />
+            </div>
+          </div>
+
+          <!-- Textarea -->
+          <div class="col-12">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4"></textarea>
+          </div>
+
+          <!-- Submit -->
+          <div class="col-12 text-center">
+            <button class="btn btn-primary">
+              <i class="bi bi-send"></i> Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- ✅ FOOTER -->
+    <footer class="bg-dark text-white text-center p-4">
+      <p>© 2026 Rahamath Shaik | All Rights Reserved</p>
+
+      <div>
+        <i class="bi bi-facebook me-3"></i>
+        <i class="bi bi-twitter me-3"></i>
+        <i class="bi bi-linkedin me-3"></i>
+        <i class="bi bi-github"></i>
+      </div>
+    </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
