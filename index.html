@@ -17,16 +17,15 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <!-- ✅ NAVBAR START -->
+    <!-- ✅ NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <!-- Brand -->
         <a class="navbar-brand" href="#">
           <i class="bi bi-person-circle"></i> MyResume
         </a>
 
-        <!-- Toggle button (for mobile) -->
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +35,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Menu items -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -78,7 +76,7 @@
         </div>
       </div>
     </nav>
-    <!-- ✅ NAVBAR END -->
+
     <!-- ✅ HERO SECTION -->
     <section class="bg-light text-center p-5">
       <div class="container">
@@ -97,9 +95,77 @@
           <i class="bi bi-download"></i> Download Resume
         </button>
 
-        <button class="btn btn-outline-dark">
+        <button class="btn btn-outline-dark ms-2">
           <i class="bi bi-envelope"></i> Contact Me
         </button>
+      </div>
+    </section>
+
+    <!-- ✅ ABOUT SECTION -->
+    <section class="container my-5">
+      <div class="row align-items-center">
+        <!-- Image -->
+        <div class="col-12 col-md-6 text-center">
+          <img
+            src="https://via.placeholder.com/400"
+            class="img-fluid rounded"
+            alt="About Me"
+          />
+        </div>
+
+        <!-- Content -->
+        <div class="col-12 col-md-6">
+          <h2>About Me</h2>
+
+          <p>
+            I am a passionate web development student with interest in building
+            responsive and user-friendly websites.
+          </p>
+
+          <p>
+            I have knowledge in HTML, CSS, JavaScript, jQuery, MySQL, PHP,
+            MongoDB and Bootstrap. I enjoy learning new technologies and
+            improving my skills.
+          </p>
+
+          <button class="btn btn-primary">
+            <i class="bi bi-person-lines-fill"></i> Read More
+          </button>
+
+          <!-- ✅ NESTED GRID (FIXED POSITION) -->
+          <div class="row mt-4">
+            <div class="col-6">
+              <div class="p-3 bg-light text-center">
+                <h5>Projects</h5>
+                <p>3+</p>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="p-3 bg-light text-center">
+                <h5>Experience</h5>
+                <p>2 Years</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ GRID DEMO (ORDER + OFFSET) -->
+    <section class="container my-5">
+      <div class="row g-3">
+        <div class="col-md-4 order-md-2">
+          <div class="p-3 bg-warning text-center">Column 1</div>
+        </div>
+
+        <div class="col-md-4 order-md-1">
+          <div class="p-3 bg-info text-center">Column 2</div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-3 bg-success text-center">Column 3</div>
+        </div>
       </div>
     </section>
 
